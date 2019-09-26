@@ -31,7 +31,7 @@ metadata:
   name: mongo
 spec:
   serviceName: "mongo"
-  type: Standalone
+  replicas: 1
   template:
     metadata:
       labels:
